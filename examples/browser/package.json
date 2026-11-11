@@ -1,0 +1,16 @@
+{
+  "name": "explain-motion-kit",
+  "version": "0.1.0",
+  "description": "知识动画代码模板库:22条抖音知识视频研究蒸馏(确定性 render(t),Three.js)",
+  "scripts": {
+    "render": "node tools/render-sequence.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "puppeteer-core": "^23.11.1",
+    "three": "^0.170.0"
+  }
+}

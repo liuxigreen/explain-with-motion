@@ -1,0 +1,354 @@
+[
+  {
+    "id": "7650378028047944969",
+    "source_pts_s": [
+      8.0,
+      24.0,
+      44.0
+    ],
+    "source_frame_indexes": [
+      240,
+      720,
+      1320
+    ],
+    "purpose": "sampled appearance anchors, not continuous motion evidence",
+    "source_url": "https://www.douyin.com/video/7650378028047944969",
+    "local_research_board_filename": "7650378028047944969.jpg"
+  },
+  {
+    "id": "7690337875291950345",
+    "source_pts_s": [
+      6.0,
+      26.0,
+      160.0
+    ],
+    "source_frame_indexes": [
+      180,
+      780,
+      4800
+    ],
+    "purpose": "sampled appearance anchors, not continuous motion evidence",
+    "source_url": "https://www.douyin.com/video/7690337875291950345",
+    "local_research_board_filename": "7690337875291950345.jpg"
+  },
+  {
+    "id": "7690344836800913785",
+    "source_pts_s": [
+      8.0,
+      48.0,
+      107.0
+    ],
+    "source_frame_indexes": [
+      240,
+      1440,
+      3210
+    ],
+    "purpose": "sampled appearance anchors, not continuous motion evidence",
+    "source_url": "https://www.douyin.com/video/7690344836800913785",
+    "local_research_board_filename": "7690344836800913785.jpg"
+  },
+  {
+    "id": "7691737108725140762",
+    "source_pts_s": [
+      18.0,
+      74.0,
+      142.0
+    ],
+    "source_frame_indexes": [
+      540,
+      2220,
+      4260
+    ],
+    "purpose": "sampled appearance anchors, not continuous motion evidence",
+    "source_url": "https://www.douyin.com/video/7691737108725140762",
+    "local_research_board_filename": "7691737108725140762.jpg"
+  },
+  {
+    "id": "7691899212874681643",
+    "source_pts_s": [
+      10.0,
+      54.0,
+      67.0
+    ],
+    "source_frame_indexes": [
+      300,
+      1620,
+      2010
+    ],
+    "purpose": "sampled appearance anchors, not continuous motion evidence",
+    "source_url": "https://www.douyin.com/video/7691899212874681643",
+    "local_research_board_filename": "7691899212874681643.jpg"
+  },
+  {
+    "id": "7692022955122937098",
+    "source_pts_s": [
+      6.0,
+      35.0,
+      130.0
+    ],
+    "source_frame_indexes": [
+      180,
+      1050,
+      3900
+    ],
+    "purpose": "sampled appearance anchors, not continuous motion evidence",
+    "source_url": "https://www.douyin.com/video/7692022955122937098",
+    "local_research_board_filename": "7692022955122937098.jpg"
+  },
+  {
+    "id": "7693231930334855918",
+    "source_pts_s": [
+      4.0,
+      30.0,
+      100.0
+    ],
+    "source_frame_indexes": [
+      120,
+      900,
+      3000
+    ],
+    "purpose": "sampled appearance anchors, not continuous motion evidence",
+    "source_url": "https://www.douyin.com/video/7693231930334855918",
+    "local_research_board_filename": "7693231930334855918.jpg"
+  },
+  {
+    "id": "7693397287104890490",
+    "source_pts_s": [
+      18.0,
+      49.0,
+      139.0
+    ],
+    "source_frame_indexes": [
+      540,
+      1470,
+      4170
+    ],
+    "purpose": "sampled appearance anchors, not continuous motion evidence",
+    "source_url": "https://www.douyin.com/video/7693397287104890490",
+    "local_research_board_filename": "7693397287104890490.jpg"
+  },
+  {
+    "id": "7693693446275923121",
+    "source_pts_s": [
+      20.0,
+      80.0,
+      139.0
+    ],
+    "source_frame_indexes": [
+      600,
+      2400,
+      4170
+    ],
+    "purpose": "sampled appearance anchors, not continuous motion evidence",
+    "source_url": "https://www.douyin.com/video/7693693446275923121",
+    "local_research_board_filename": "7693693446275923121.jpg"
+  },
+  {
+    "id": "7693771749486813678",
+    "source_pts_s": [
+      4.0,
+      6.0,
+      22.0
+    ],
+    "source_frame_indexes": [
+      120,
+      180,
+      660
+    ],
+    "purpose": "sampled appearance anchors, not continuous motion evidence",
+    "source_url": "https://www.douyin.com/video/7693771749486813678",
+    "local_research_board_filename": "7693771749486813678.jpg"
+  },
+  {
+    "id": "7694885507196554550",
+    "source_pts_s": [
+      8.0,
+      35.0,
+      80.0
+    ],
+    "source_frame_indexes": [
+      240,
+      1050,
+      2400
+    ],
+    "purpose": "sampled appearance anchors, not continuous motion evidence",
+    "source_url": "https://www.douyin.com/video/7694885507196554550",
+    "local_research_board_filename": "7694885507196554550.jpg"
+  },
+  {
+    "id": "7694898938109505713",
+    "source_pts_s": [
+      10.0,
+      48.0,
+      80.0
+    ],
+    "source_frame_indexes": [
+      300,
+      1440,
+      2400
+    ],
+    "purpose": "sampled appearance anchors, not continuous motion evidence",
+    "source_url": "https://www.douyin.com/video/7694898938109505713",
+    "local_research_board_filename": "7694898938109505713.jpg"
+  },
+  {
+    "id": "7694915656386746810",
+    "source_pts_s": [
+      8.0,
+      69.0,
+      90.0
+    ],
+    "source_frame_indexes": [
+      240,
+      2070,
+      2700
+    ],
+    "purpose": "sampled appearance anchors, not continuous motion evidence",
+    "source_url": "https://www.douyin.com/video/7694915656386746810",
+    "local_research_board_filename": "7694915656386746810.jpg"
+  },
+  {
+    "id": "7695061095542820136",
+    "source_pts_s": [
+      40.0,
+      94.0,
+      116.0
+    ],
+    "source_frame_indexes": [
+      1200,
+      2820,
+      3480
+    ],
+    "purpose": "sampled appearance anchors, not continuous motion evidence",
+    "source_url": "https://www.douyin.com/video/7695061095542820136",
+    "local_research_board_filename": "7695061095542820136.jpg"
+  },
+  {
+    "id": "7697240924837748134",
+    "source_pts_s": [
+      10.0,
+      40.0,
+      116.0
+    ],
+    "source_frame_indexes": [
+      300,
+      1200,
+      3480
+    ],
+    "purpose": "sampled appearance anchors, not continuous motion evidence",
+    "source_url": "https://www.douyin.com/video/7697240924837748134",
+    "local_research_board_filename": "7697240924837748134.jpg"
+  },
+  {
+    "id": "7697562015145286571",
+    "source_pts_s": [
+      4.0,
+      15.0,
+      26.0
+    ],
+    "source_frame_indexes": [
+      120,
+      450,
+      780
+    ],
+    "purpose": "sampled appearance anchors, not continuous motion evidence",
+    "source_url": "https://www.douyin.com/video/7697562015145286571",
+    "local_research_board_filename": "7697562015145286571.jpg"
+  },
+  {
+    "id": "7700035406317882660",
+    "source_pts_s": [
+      3.0,
+      10.0,
+      22.0
+    ],
+    "source_frame_indexes": [
+      90,
+      300,
+      660
+    ],
+    "purpose": "sampled appearance anchors, not continuous motion evidence",
+    "source_url": "https://www.douyin.com/video/7700035406317882660",
+    "local_research_board_filename": "7700035406317882660.jpg"
+  },
+  {
+    "id": "7700150054741292217",
+    "source_pts_s": [
+      20.0,
+      70.0,
+      150.0
+    ],
+    "source_frame_indexes": [
+      600,
+      2100,
+      4500
+    ],
+    "purpose": "sampled appearance anchors, not continuous motion evidence",
+    "source_url": "https://www.douyin.com/video/7700150054741292217",
+    "local_research_board_filename": "7700150054741292217.jpg"
+  },
+  {
+    "id": "7700500914120969472",
+    "source_pts_s": [
+      6.0,
+      32.0,
+      75.0
+    ],
+    "source_frame_indexes": [
+      180,
+      960,
+      2250
+    ],
+    "purpose": "sampled appearance anchors, not continuous motion evidence",
+    "source_url": "https://www.douyin.com/video/7700500914120969472",
+    "local_research_board_filename": "7700500914120969472.jpg"
+  },
+  {
+    "id": "7701225689332206911",
+    "source_pts_s": [
+      8.0,
+      40.0,
+      64.0
+    ],
+    "source_frame_indexes": [
+      240,
+      1200,
+      1920
+    ],
+    "purpose": "sampled appearance anchors, not continuous motion evidence",
+    "source_url": "https://www.douyin.com/video/7701225689332206911",
+    "local_research_board_filename": "7701225689332206911.jpg"
+  },
+  {
+    "id": "7701296543874221183",
+    "source_pts_s": [
+      2.0,
+      6.0,
+      10.0
+    ],
+    "source_frame_indexes": [
+      60,
+      180,
+      300
+    ],
+    "purpose": "sampled appearance anchors, not continuous motion evidence",
+    "source_url": "https://www.douyin.com/video/7701296543874221183",
+    "local_research_board_filename": "7701296543874221183.jpg"
+  },
+  {
+    "id": "7701632610547535155",
+    "source_pts_s": [
+      20.0,
+      100.0,
+      170.0
+    ],
+    "source_frame_indexes": [
+      600,
+      3000,
+      5100
+    ],
+    "purpose": "sampled appearance anchors, not continuous motion evidence",
+    "source_url": "https://www.douyin.com/video/7701632610547535155",
+    "local_research_board_filename": "7701632610547535155.jpg"
+  }
+]
