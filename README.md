@@ -4,6 +4,10 @@
 
 把整个仓库目录交给 Agent，入口是 [SKILL.md](SKILL.md)。[文案写法](references/copy-patterns.md)汇总 22 条文字驱动视频的案例，[制作流程](references/make-a-video.md)说明如何把文案落实到镜头。
 
+## 参考视频图集
+
+22 条参考原片各选 4 帧，附原片链接和时间点。选风格时，可先看构图、材质、光影和文字层次，再读相应的案例分析。[打开参考视频图集](references/reference-gallery.md)
+
 ## 运行样片
 
 准备 Node.js、Chrome、FFmpeg 和中文字体。若 Chrome 位于自定义路径，设置环境变量 `CHROME` 为浏览器可执行文件的绝对路径。

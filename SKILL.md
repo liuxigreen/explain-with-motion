@@ -5,7 +5,7 @@ description: 编写和制作文字驱动的知识视频。把选题写成递进�
 
 # 用运动解释知识
 
-按用户要求交付研究、文案、样片或成片。制作从[文案方法](references/copy-patterns.md)和[制作流程](references/make-a-video.md)开始。浏览器样例和运行命令见[README](README.md)，包含暗室窗影和雨巷漏壶。
+按用户要求交付研究、文案、样片或成片。制作从[文案方法](references/copy-patterns.md)和[制作流程](references/make-a-video.md)开始。选风格时先打开[22 条原片图集](references/reference-gallery.md)中相关案例。浏览器样例和运行命令见[README](README.md)。
 
 ## 按任务读取
 
