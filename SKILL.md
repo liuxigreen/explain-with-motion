@@ -1,51 +1,22 @@
 ---
 name: explain-with-motion
-description: 编写和制作文字驱动的知识视频。把选题写成递进问答，安排跨场景分镜，用 Three.js、Canvas 和 WebGL 做样片并导出 MP4。也用于分析参考片的文案、画面和制作技法。
+description: 为文字驱动的知识短片或长片选题、写稿、分镜并用 Three.js、Canvas 和 FFmpeg 渲染。适用于科普、历史故事、生活哲学和参考片风格复用，可交付文案、光影样片或完整 MP4。
 ---
 
 # 用运动解释知识
 
-按用户要求交付研究、文案、样片或成片。制作从[文案方法](references/copy-patterns.md)和[制作流程](references/make-a-video.md)开始。选风格时先打开[22 条原片图集](references/reference-gallery.md)中相关案例。浏览器样例和运行命令见[README](README.md)。
+按用户要求交付选题、文案、样片或成片。涉及制作时，从文案的因果关系推导镜头，再用画面验证。已有时长、画幅、参考片、口播和声音要求直接沿用。
 
-## 按任务读取
+1. **写稿。** 先写观众的问题、一句准确答案、开头的具体处境和结尾的回收。用[文案五步法和 22 个案例](references/copy-patterns.md)选择写法。长片按小问答推进，每段交付新证据、例外或尺度变化。正文读通后再拆屏幕文字。
+2. **编排。** 打开[原片图集](references/reference-gallery.md)中与题材匹配的画面。按[从选题到成片](references/make-a-video.md)给每个镜头写明要回答的问题、对象如何变化、哪一句由文字承担、如何衔接下一镜。一个镜头内可以有多次状态变化，转场按叙事需要安排。
+3. **定观感。** 从[技术解剖与制作卡](references/visual-techniques.md)选适用技法。先确定主体占幅、物件体量、前中后景、表面纹理和受光，再调标签、粒子和后期。写清这一片的亮暗层级、主色与强调色、文字落点，以及跨镜保留的物件。示意图解和实体场景各自按目标风格验收。
+4. **渲染。** 用 Three.js 处理立体空间、材质、灯光和投影，用 Canvas/SVG 处理平面图解与文字，必要时用 WebGL 合成。Node.js 驱动 Chrome 逐帧调用 `renderAt(t)`，FFmpeg 编码与混音。[运行命令](README.md)和[场景接口](references/rendering-tools.md)均随包提供。可先读[样例与共用做法](references/shared-components.md)。
+5. **看片。** 先渲染首屏、主动作和结果，检查构图、材质、光影、可读性及动作因果。用户要求先试 10 秒时，从正片中取一段能验证核心观感和叙事的片段。出片后核对时间轴、画幅、文字停留、声音要求和可播放性。无口播的内容先静音检查，确认文字和画面合起来能讲清因果。按任务交付 MP4、源码和复现命令。
 
-收到选题并要求出片时，先读[从选题到成片](references/make-a-video.md)。它将旧蒸馏的镜头机制和 rea-video 批量分析转成选风格、写组件、渲染和验收的流程。
+## 按需查看
 
-需要复用相机、材质、场景或人物时，读[共用场景组件](references/shared-components.md)，先查看样例源码和可调参数。
-
-需要判断完成范围、已复现内容或工具限制时，读[覆盖与能力边界](references/coverage-and-limits.md)。
-
-- **新选题制作或“要参考片那种效果”**：先读[执行蓝图](references/production-blueprint.md)，完成风格选择和视觉门，再选相关技法。先确定占幅、空间、物体体量、材质和构图，不从发光粒子开始。
-- **实际出片工程**：读[制作执行流程](references/production-workflow.md)，将研究、风格、单片导演方案和执行后端分开。按[项目清单格式](references/project-contract.md)建立时间轴，运行 `scripts/check_project.py`，再检查真实成片；清单通过不等于视觉通过。
-- **导演与渲染**：用[导演方法](references/directing-method.md)确定镜头和节奏，再按[浏览器渲染说明](references/rendering-tools.md)输出关键帧和 MP4。
-- **选择参考风格**：读[风格与图像索引](references/style-router.md)，打开对应原帧板。按案例ID查[观感补查A](references/look-audit-a.md)或[观感补查B](references/look-audit-b.md)，不要默认22条是一种风格。
-- **暗色古代人物、城市或地图旅程**：读[古代故事规格](references/ancient-story-style.md)及[转场连续帧证据](references/transition-evidence.md)，看烽火和长安参考板。仅“古代”题材不足以自动选此风格；用户指定参考时按其执行。
-- **参考片研究**：按下节取证；需要字段时读[证据规范](references/evidence-schema.md)。
-- **全片深入研究或核对是否分析完成**：读[全片机制研究标准](references/full-study-standard.md)，将全时长事件表与独特机制的连续证据逐项对应。提帧数量和报告数量不能代替实际检查记录。
-- **声音制作/完整音画分析**：读[音轨流程](references/audio-workflow.md)，确认具备实际听辨能力后才写听觉结论。
-
-## 分析参考片
-
-记录来源、ID、版本与本地文件。榜单保留筛选范围，缺片和补充片单列；点赞不是技法有效性的因果证据。
-
-先沿全时长采样识别叙事阶段与信息事件；若只看采样帧，明确标注。再选择关键变化区间查看全部实际源帧。变帧率用PTS，不用帧号除平均帧率伪造精确时间。
-
-有ffmpeg/ffprobe时，运行 `python scripts/extract_frames.py 视频路径 新输出目录` 间隔采样；加 `--start 秒 --end 秒` 提取区间全部实际帧。检查manifest与图像后才写视觉结论。
-
-逐段问：观众需要理解哪两个状态？什么发生了变化？粒子是数据、信号、对象还是装饰？光是在指示注意、环境、时间还是反馈？相机变化和对象变化是否混淆？画面中的模拟时钟是否等于视频时间？同时补查执行蓝图中的构图、空间、体量、材质、色光、镜头、时序、排版、合成、声音及输出维度。只分析解释机制会漏掉观感。
-
-音频需要单独听审。振幅峰值不能证明节拍、音效类型或同步；静帧也不能证明运动方向。未观察到的项目保留未知。
-
-分析完整视频或声音制作时，读取[音轨流程](references/audio-workflow.md)，分别检查配音、音乐、音效、留白和音画同步；客观测量与实际听辨分开记录。
-
-## 转成制作方案
-
-按解释问题从[技法库](references/technique-library.md)选择相关方法；需要定位参考时读[案例索引](references/case-index.md)。不要为凑齐维度添加无意义特效。
-
-把方案写成场景/物件、对象关系、状态变量、镜头与灯光、文字安全区、触发顺序、可调参数与验收。参数作为试制起点；不猜原作者的软件和曲线。参数不足时给待试制值，不把“浮雕、电影感”几个形容词当作制作规格。
-
-参考用满幅地形或实体场景时，不能擅自替成大留白、平面三角山、线框道具与小人物。按蓝图分别验收“视觉接近”和“信息清楚”，二者都通过才称风格试制通过。若当前工具不能满足，明确实现缺口并给可执行路径，不降低目标后宣称完成。用户要求完整执行时，自行完成可完成的检查，不把每道内部验收变成确认请求。
-
-单例标候选，多案例共同机制标跨案例支持，亲自试制且检查的实现才标已复现。跨案例机制不等于每个具体效果都已验证。新主题重写素材和论证，复用解释方法。
-
-交付镜头表、带时间证据的重点动作及可制作技法卡。案例与技法按需扩充；仅在研究与制作出现独立输入输出和工具链时考虑拆分skill。
+- **古代场景或地图旅程**读[古代故事规格](references/ancient-story-style.md)与[连续转场证据](references/transition-evidence.md)。
+- **人物、节奏与场景调度**读[导演方法](references/directing-method.md)与[制作规格](references/production-blueprint.md)。
+- **交付可复建工程**读[制作执行流程](references/production-workflow.md)与[项目清单格式](references/project-contract.md)。
+- **参考片拆解**读[证据规范](references/evidence-schema.md)和[全片机制研究标准](references/full-study-standard.md)。提帧用 `python scripts/extract_frames.py 视频路径 输出目录`，局部连续帧加 `--start 秒 --end 秒`。记录源 PTS、抽样范围、画面实证和实现推断。拆原片文字另读[长文案拆解](references/script-structure.md)。
+- **配乐和声音**读[音轨流程](references/audio-workflow.md)，用实际听辨核对语音、音效和同步。

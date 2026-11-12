@@ -2,7 +2,9 @@
 
 面向 Agent 的知识视频制作 skill。给出选题，先写正文和逐段问答，再做分镜、光影试片和完整渲染。
 
-把整个仓库目录交给 Agent，入口是 [SKILL.md](SKILL.md)。[文案写法](references/copy-patterns.md)汇总 22 条文字驱动视频的案例，[制作流程](references/make-a-video.md)说明如何把文案落实到镜头。
+把整个仓库目录交给 Agent，从 [SKILL.md](SKILL.md) 开始。先用[文案五步法](references/copy-patterns.md)写稿，再按[制作流程](references/make-a-video.md)排镜头，最后从[技术解剖与制作卡](references/visual-techniques.md)选材质、光影、文字、动效和转场做法。
+
+可以直接给 Agent 一句任务指令。比如「用 explain-with-motion 做一条 3 分钟无口播知识片，先写完整文案与分镜，再按参考画面渲染 10 秒样片供我看观感。」
 
 ## 参考视频图集
 
